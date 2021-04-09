@@ -77,7 +77,7 @@ const foodSlider = new Swiper('.food-slider', {
   },
 });
 const searchBtn = document.querySelector('.mobile-search');
-const mobileSearch = document.querySelector('input-group');
+const mobileSearch = document.querySelector('.input-group');
 searchBtn.addEventListener('click', () => {
   mobileSearch.classList.toggle('is-open');
 });
